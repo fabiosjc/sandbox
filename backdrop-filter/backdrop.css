@@ -1,52 +1,56 @@
 body {
-    margin: 0;
-    position: 0;    
+  margin: 0;
+  position: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 section {
-    background: url('https://pixabay.com/get/57e8d3444c54a914f6d1867dda35367b1c3bd9ed53537748_1920.jpg') no-repeat;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: url("https://images.unsplash.com/photo-1539511977266-f0b884a7ee39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80")
+    center center; */
+  background: url("https://images.unsplash.com/photo-1541727687969-ce40493cd847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1869&q=80");
 }
 
 .backdrop {
-    color: #fff;
-    background-color: rgba(244, 248, 248, 0.12);
-    background: rgba(0,0,0,0.8);
-    background-color: rgba(244, 248, 248, 0.12);
-    backdrop-filter: saturate(120%) blur(10px); 
-    border-radius: 0.6rem
+  color: #fff;
+  background-color: rgba(244, 248, 248, 0.12);
+  background: rgba(0, 0, 0, 0.8);
+  background-color: rgba(244, 248, 248, 0.12);
+  backdrop-filter: saturate(120%) blur(10px);
+  border-radius: 0.6rem;
+  box-shadow: 2px 4px 4px 2px #00000060;
 }
 
 .form-login {
-    padding: 4rem 4rem;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-
+  padding: 4rem 4rem;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
 
 .form-login input {
-    margin: 1rem;
-    line-height: 2.5rem;
-    border-radius: 0.2rem;
-    padding: 0.1rem 0.5rem;
-    border: none;
-    font-size: 0.9rem;
+  margin: 1rem;
+  line-height: 2.5rem;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.5rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  color: #222;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin: 1.5rem 0;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
 }
 
 input.submit-btn {
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-    background-color: #a20069;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #a20069;
 }
